@@ -93,7 +93,17 @@ h3 {
     font-weight: bold;
 }
 
+.logo {
+  margin : 10px 0px 0px 0px;
 
+}
+
+.abstract {
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  font-size: 12px;
+  font-weight:bold;
+  color:rgb(54,66,74);
+}
 
 nav {
 	/*top: 10vh;*/
@@ -122,13 +132,12 @@ nav ul li a {
 	font-size: 18px;
 }
 nav ul {
-    top: 10vh;
-  	position: absolute;
+  	position: relative;
 	  margin: auto;
   	text-align: left;
   	margin-left: 20px;
   	list-style-type: none;
-  	/*height: 48vh;*/
+    padding: 30% 0 0 0;
   	height: 48vh;
   	display: -webkit-box;
   	display: -ms-flexbox;
@@ -139,6 +148,7 @@ nav ul {
     flex-direction: column;
   	-ms-flex-pack: distribute;
     justify-content: space-around;
+
 }
 nav ul li {
 	margin: 25px 0px;
